@@ -1,32 +1,16 @@
-### implementation of the K-Means clustering algorithm with random initialization
+### Implementation of the K-Means++ clustering algorithm
 
+```
 Two datasets are attached to this assignment: 
-(1) a set of sentences used to train the ATIS (Airline Travel
-Information System) chatbot , and (2) a small subset of the dataset used for training another chat-bot
-including only 3 topics. Both datasets come with annotated categories – these labels should only be
-used for evaluation,
-<hr/>
+(1) a set of sentences used to train the ATIS (Airline Travel Information System) chatbot, 
+and (2) a small subset of the dataset used for training another chat-bot including only 3 topics. 
+Both datasets come with annotated categories – these labels only used for evaluation.
 
-### In future versions
-```
- - Support for multiple predictions via excel file upload.
- - Confusion matrix in the Scores & Stats section
- - File upload from Dropbox, Google Drive
-```
-<hr/>
+Evaluation is preformed with the RI and ARI metrics.
 
-### Usage
-
-#### Run React dev server (http://localhost:3000)
-```
-.\CLSFY\npm start
+* config.json contains the datafile location.
 ```
 
-#### Run the FLASK server (http://localhost:5000) (from a new terminal)
-```
-.\CLSFY\api\venv\Scripts\flask run
-```
-<hr/>
 
 
 
